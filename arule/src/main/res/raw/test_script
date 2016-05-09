@@ -1,0 +1,16 @@
+{
+	"operations" : [
+		{
+			"name" : "AlertPassengerNum",
+			"fields":{
+				"psgNum" : "k",
+				"content": "\"有点意思   这玩意有用\""
+			},
+			"position":{
+				"after":"ctrip.android.view.flight.view.inland.FlightOrderFragment.onCreate(Bundle)"
+			},
+			"condition" : "psgNum >2",
+			"execution" : "nativeAlert(content)"
+		}
+	]
+}
